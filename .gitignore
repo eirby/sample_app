@@ -8,8 +8,15 @@
 /.bundle
 
 # Ignore the default SQLite database.
-/db/*.sqlite3
+/db/*.sqlite*
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+
+doc/
+*.swp
+*~
+.project
+.idea
